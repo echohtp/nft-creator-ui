@@ -12,13 +12,6 @@
     />
     <p class="text-center">
       An easy and quick way to create NFTs on Solana blockchain.<br>
-      See
-      <router-link
-        to="/about"
-        class="text-decoration-none"
-      >
-        how it works
-      </router-link><br>
       This is still in <code>BETA</code> you may lose your transaction fee.
     </p>
 
