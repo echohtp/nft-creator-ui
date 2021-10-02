@@ -12,6 +12,7 @@
     />
     <p class="text-center">
       An easy and quick way to create NFTs on Solana blockchain.<br>
+      <h1>FOR FREE</h1>
       This is still in <code>BETA</code> you may lose your transaction fee.
     </p>
 
