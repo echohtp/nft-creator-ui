@@ -7,7 +7,6 @@
     class="mb-2"
   >
     <div class="d-flex justify-center align-center flex-grow-1">
-
       <v-divider
         vertical
         class="mx-2"
