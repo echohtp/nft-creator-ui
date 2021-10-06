@@ -32,7 +32,7 @@
           class="text-center"
         >
           <p>
-            PNG, JPG, GIF. Up to 2mb.
+            PNG, JPG, GIF. Up to 7mb.
           </p>
           <v-btn
             @click="openFileExplorer"
