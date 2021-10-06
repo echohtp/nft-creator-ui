@@ -352,7 +352,7 @@ export default {
       this.descriptionRules = [
         (v) => (v.length <= 300) || 'Description must be less than 300 characters',
         (v) => (v === '')
-            || (new RegExp("^[A-Za-z0-9'?!.,:#áéíóúÁÉÍÓÚñÑäëïÖüÄËÏÖü_ -]+$", 'u').test(v))
+            || (new RegExp("^[A-Za-z0-9'?!.,:#áéíóúÁÉÍÓÚñÑäëïÖüÄËÏÖü_ -\\\/]+$", 'u').test(v))
             || 'Use standard characters',
       ];
       this.supplyRules = [
