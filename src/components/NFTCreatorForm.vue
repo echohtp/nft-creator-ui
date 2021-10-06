@@ -363,7 +363,7 @@ export default {
       ];
       this.fileRules = [
         (v) => !!v || 'File is required',
-        (v) => (v && v.size && v.size <= 2e6) || 'File must be less than 2mb',
+        (v) => (v && v.size && v.size <= 7e6) || 'File must be less than 7mb',
       ];
       setTimeout(() => {
         if (this.$refs.form.validate()) {
